@@ -1,67 +1,10 @@
 <!DOCTYPE html><!--====HTML5 declaration type=====-->
 <html><!--====the HTML tag=====-->
     <head><!--====Contains all the non-visual elements that help make the page work=====-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PORTFOLIO</title><!--====the title of the page=====-->
-        <style>/*====embedded CSS style====*/
-            body {
-                background-color: #dedede;
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                height: 100%;
-            }
-            #navbar {
-                background: #70C1B3;
-                width: 100%;
-                height: 100px;
-                border-bottom: 2px solid black;
-                display: flex;
-                justify-content: space-between;
-            }
-            #navbar h3 {
-                margin-left: 20px;
-                font-size: 2em;
-            }
-            span {
-                margin: 40px 50px 0 0;
-                font-size: 1.7em;
-            }
-            #main {
-                width: 80%;
-                margin-left: 10%;
-            }
-            h1 {
-                padding-left: 40%;
-            }
-            .container {
-                display: flex;
-                margin-bottom: 40px;
-            }
-            .first {
-                width: 40%;
-                margin-left: 5%;
-                background: white;
-                border: 2px solid black;
-                border-radius: 5px;
-            }
-            .first img {
-                width: 200px;
-                height: 200px;
-                margin-top: 20px;
-                border: 1px solid black;
-                border-radius: 50%;
-            }
-            footer {
-                width: 100%;
-                height: 50px;
-                background: #247BA0;
-            }
-            footer p {
-                line-height: 50px;
-                padding-left: 35%;
-                font-size: 1.3em;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body><!--====contains all the visual structural elements of the HTML file=====-->
         <div id="navbar"><!--====a div to contain the navbar elements=====-->
@@ -72,27 +15,26 @@
             <h1>Group Portfolio</h1><!--=====the main header of the HTML file====-->
             <div class="container"><!--====a div to contain the two portfolios=====-->
                 <div class="first"><!--====a div to contain the first portfolio=====-->
-                    <center><!--=====used to center all elements inside the portfolio====-->
+                    <div class="naming">
                         <img src="Hakeem.jpg"><!--====to place an image=====-->
                         <h2>Abdulhakeem Abdulazeez</h2><!--====a h2 header=====-->
+                    </div>
                         <!--====a paragraph=====-->
                         <p>I am a student of Federal University of Technology, Minna currently residing in Kaduna State. I am currently a 500 level student in the faculty of Mechanical Engineering and also an aspiring front end web developer.</p>
-                        <p></p>
-                    </center>
                 </div>
                 <div class="first"><!--====a div to contain the second portfolio=====-->
-                    <center><!--====used to center all elements inside the portfolio=====-->
+                    <div class="naming">
                         <img src="aboubakar.jpg"><!--====to place an image=====-->
                         <h2>Aliyu Aboubakar</h2><!--====a h2 header=====-->
+                    </div>
                         <!--paragraph-->
                          <p> I am Aliyu Aboubakar, I live in Minna, Niger State capital. I am a 200 level student in the department of Computer Science, Ibrahim Badamasi Babangida University Lapai and hoping to become a fullstack developer by the end of the year.</p>
-                    </center>
                 </div>
             </div>
         </div>
         <footer><!--====the footer of the HTML file=====-->
             <p>Paritie Bootcamp, Copyright &copy; 2019</p>
         </footer>
-        
+
     </body>
 </html>
